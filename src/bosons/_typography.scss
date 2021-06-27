@@ -1,0 +1,10 @@
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+@mixin typo-01($size) {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: calculateRem($size);
+}

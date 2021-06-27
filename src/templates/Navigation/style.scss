@@ -1,0 +1,29 @@
+.navigation {
+  padding: 20px 20px;
+  background: $primary;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  > h1 {
+    color: $light;
+    font-family: sans-serif;
+  }
+
+  > ul {
+    list-style: none;
+    display: inherit;
+    > li {
+      margin: 0 10px;
+      a {
+        color: $light;
+        text-decoration: none;
+        font-family: sans-serif;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    } 
+  }
+}

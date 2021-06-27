@@ -1,4 +1,10 @@
-@import './bosons/reset.scss';
+@import './bosons/reset';
 @import './bosons/typography';
 @import './bosons/mixins';
 @import './bosons/colors';
+
+
+.app-wrapper {
+  // padding: 20px;
+  min-height: calc(100vh - 80px);
+}

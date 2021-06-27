@@ -1,0 +1,31 @@
+  .-primary {
+    @extend .button;
+    background: $primary;
+    color: $light;
+
+    &:hover {
+      background: $light;
+      color: $primary;
+      border-color: $primary;
+    }
+  }
+
+  .-outline {
+    @extend .button;
+    background: $light;
+    color: $primary;
+    border-color: $primary;
+
+    &:hover {
+      background: $primary;
+      color: $light;
+    }
+  }
+
+
+.output {
+  margin: 10px 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: green;
+}

@@ -1,0 +1,13 @@
+.home-wrapper {
+  display: flex;
+
+  .cover {
+    width: 60%;
+    height: 100vh;
+    background: linear-gradient($primary, rgb(91, 32, 180));
+  }
+
+  .form {
+    width: 40%;
+  }
+}
